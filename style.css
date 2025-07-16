@@ -1,0 +1,104 @@
+body {
+    background-color: #6aacd5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-265%, -125%);
+    background-color: #feffff;
+    width: 240px;
+    padding: 20px;;
+}
+
+.content {
+    background-color: #feffff;
+    width: 1000px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%, -145%);
+}
+
+.profile {
+    background-color: #feffff;
+    font-size: medium;
+    width: 1000px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%, -20%);
+}
+
+.profile img {
+    width: 170px;
+    height: 225px;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+}
+
+.projects {
+    background-color: #feffff;
+    width: 1000px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%, 164%);
+}
+
+.links {
+    background-color: #feffff;
+    width: 200px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-265%, -10%);
+    font-size: larger;
+}
+
+.links img {
+    width: 15%;
+    height: 15%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.bullshit {
+    background-color: #feffff;
+    width: 240px;
+    padding: 20px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-265%, -35%);
+    font-size: 12px;
+    font-style: italic;
+}
+
+#bullshit-text {
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+}
+
+#a {
+    text-align: end;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.invisible {
+    color: transparent;
+    top:120%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: transparent;
+}
