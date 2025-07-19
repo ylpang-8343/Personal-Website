@@ -1,104 +1,133 @@
 body {
-    background-color: #6aacd5;
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('Image/background.png');
+    background-size: cover;
+    margin: 20px;
+    font-family: Arial, sans-serif;
 }
 
-.image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-265%, -125%);
-    background-color: #feffff;
-    width: 240px;
-    padding: 20px;;
+header {
+    background-color: #4a90e2;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 0;
+    margin: 20px auto;
+    text-align: center;
+    width: 700px;
 }
 
-.content {
-    background-color: #feffff;
-    width: 1000px;
-    padding: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-35%, -145%);
+header h3 {
+    font-style:italic;
+    text-decoration: underline;
 }
 
-.profile {
-    background-color: #feffff;
-    font-size: medium;
-    width: 1000px;
-    padding: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-35%, -20%);
-}
-
-.profile img {
-    width: 170px;
-    height: 225px;
-    position: absolute;
-    top: 20%;
-    left: 75%;
-}
-
-.projects {
-    background-color: #feffff;
-    width: 1000px;
-    padding: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-35%, 164%);
-}
-
-.links {
-    background-color: #feffff;
-    width: 200px;
-    padding: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-265%, -10%);
-    font-size: larger;
-}
-
-.links img {
-    width: 15%;
-    height: 15%;
-    margin-right: 20px;
-    vertical-align: middle;
-}
-
-.bullshit {
-    background-color: #feffff;
-    width: 240px;
-    padding: 20px;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-265%, -35%);
-    font-size: 12px;
+header p {
+    font-weight: bold;
     font-style: italic;
+    text-align: right;
+    margin-right: 20px;
 }
 
-#bullshit-text {
-    font-size: 1.5em;
-    color: black;
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid lightblue;
+}
+
+section {
+    background-color: skyblue;
+    text-align: center;
+    display: block;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+section a {
+    color: #fff;
+    text-decoration: none;
     font-weight: bold;
 }
 
-#a {
-    text-align: end;
-    font-size: 16px;
-    font-style: italic;
+section .btn {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 700px;
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+    animation-name: fadeSlide;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    opacity: 0;
 }
 
-.invisible {
-    color: transparent;
-    top:120%;
-    left: 73%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    background-color: transparent;
+section .btn img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+@keyframes fadeSlide {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#github {
+    background: black;
+    animation-delay: 0.25s;
+}
+
+#github img {
+    margin-right: 5px;
+}
+
+#github:hover {
+    background: #333;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.6);
+}
+
+#linkedin {
+    background: #0077b5;
+    animation-delay: 0.25s;
+}
+
+#linkedin:hover {
+    background: #005582;
+    box-shadow: 0 0 10px rgba(0, 119, 181, 0.6);
+}
+
+#discord {
+    background: #7289da;
+    animation-delay: 0.25s;
+}
+
+#discord img {
+    margin-right: 5px;
+}
+
+#discord:hover {
+    background: #5b6eae;
+    box-shadow: 0 0 10px rgba(114, 137, 218, 0.6);
+}
+
+footer {
+    text-align: right;
+    user-select: none;
+    color: whitesmoke;
 }
