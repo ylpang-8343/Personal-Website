@@ -4,22 +4,11 @@ html, body {
 
 body {
     background-image: url('Image/background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-size: cover, cover;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
     margin: 20px;
     font-family: Arial, sans-serif;
-}
-
-@media (max-width: 768px) {
-    html, body {
-        height: 100%;
-    }
-    body {
-        background-attachment: scroll;
-        margin: 0;
-    }
 }
 
 header {
