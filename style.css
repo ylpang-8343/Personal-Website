@@ -2,8 +2,17 @@ body {
     background-image: url('Image/background.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     margin: 20px;
     font-family: Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+        margin: 0;
+    }
 }
 
 header {
