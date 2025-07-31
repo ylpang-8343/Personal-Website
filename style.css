@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 body {
     background-image: url('Image/background.png');
     background-repeat: no-repeat;
@@ -9,6 +13,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    html, body {
+        height: 100%;
+    }
     body {
         background-attachment: scroll;
         margin: 0;
