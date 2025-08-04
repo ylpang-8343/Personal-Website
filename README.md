@@ -9,6 +9,7 @@
 
 ## Projects made
 - [Basic Math Game](https://github.com/ylpang-8343/Basic_Math_Game)
+- [QR Generator](https://github.com/ylpang-8343/QR-Generator)
 
 
 
