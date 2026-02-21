@@ -6,6 +6,7 @@
 ## Projects joined
 - [MMU Lost & Found Tracking System](https://github.com/YeeHong-kyc/Mini-IT-Project)
 - [document-of-litematic](https://github.com/HT-lab-union/document-of-litematic)
+- [Bin Finder](https://github.com/NabilHood/Bin-Finder)
 
 ## Projects made
 - [Basic Math Game](https://github.com/ylpang-8343/Basic_Math_Game)
